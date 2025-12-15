@@ -7,7 +7,7 @@ environment variables stored in `.env`
 database SQLite (`database.db`)
 Flyway migrations located in `src/main/resources/db/migration`
 ## structure
-- `model/` → User entity  
-- `repository/` → JPA repositories  
-- `service/` → business logic  
 - `controller/` → HTTP endpoints
+- `model/` → User entity  
+- `service/` → business logic  
+- `repository/` → JPA repositories 

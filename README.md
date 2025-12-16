@@ -12,3 +12,10 @@
 - `service/`  business logic
 - `repository/`  JPA repositories 
 - `model/`  User entity  
+
+## api structure
+
+
+- Method: POST  Path: `/register`       Headers: Content-Type: application/json     Body: email, username, password  Response 201/400
+- Method: POST  Path: `/login`          Headers: Content-Type: application/json     Body: Username, password         Response 200/401
+- Method: GET   Path: `/user/{userid}`  Headers: Content-Type: applicatin/json      Body: .                          Response 200/404
